@@ -1,0 +1,13 @@
+CREATE TABLE data_analyst_applications (
+    application_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(50),
+    resume_url VARCHAR(500),
+    years_experience VARCHAR(50),
+    primary_skills VARCHAR(255),
+    education_level VARCHAR(100),
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+--This is the schema. the sql code to create the table--
